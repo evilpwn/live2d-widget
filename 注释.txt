@@ -1,0 +1,14 @@
+复制到public下，在本地修改，验证完再提交。
+
+本地修改注意以下：
+
+自定义head中：
+{#
+<script src="https://cdn.jsdelivr.net/gh/evilpwn/live2d-widget@latest/autoload.js"></script>
+#}
+
+<script src="http://localhost:4000/live2d-widget/autoload.js"></script> {#本地#}
+
+autoload.js：
+//const live2d_path = "https://cdn.jsdelivr.net/gh/evilpwn/live2d-widget@latest/";
+const live2d_path = "http://localhost:4000/live2d-widget/";
